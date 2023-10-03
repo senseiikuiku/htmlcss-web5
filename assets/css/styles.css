@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    padding: 0 16px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 24.5px;
+    background: #171100;
+}
+
+/* Header */
+.header {
+    padding: 36px 0 8px;
+}
+
+.fixed {
+    position: sticky;
+    top: -28px;
+}
+
+.header .content {
+    background-color: rgb(241, 203, 137);
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    padding: 8px 21px;
+    font-size: 1.6rem;
+    color: #5f5b53;
+}
+.nav a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.header .sign-up-btn {
+    margin-left: 40px;
+}
+
+.header .sign-up-btn a,
+.header .sign-up-btn:hover {
+    background-color: #ea7676;
+    color: aquamarine;
+}
+
+/* Hero */
+.hero .hero-image {
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Product */
+.list-show-product .content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.list-show-product .cart {
+    padding: 16px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.list-show-product .cart .img-cart {
+    width: 100%;
+    height: 284px;
+    object-fit: cover;
+}
+
+.list-show-product .cart .title {
+    color: #1a162e;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.list-show-product .brand {
+    color: #9e9da8;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.list-show-product .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+}
+
+/* Create */
+.create .content {
+    margin-top: 30px;
+    background: #088178;
+    border-radius: 12px;
+}
+
+.create .sub-create {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.create .create-title h2 {
+    color: rgb(7, 7, 7);
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.create .create-title p {
+    margin-top: 8px;
+    margin-top: 18px;
+    font-size: 1.8rem;
+    color: #9e9da8;
+}
+
+.create .btn {
+    min-width: 148px;
+    margin-left: 350px;
+}
+
+.create .btn:hover {
+    background-color: #ea7676;
+    color: aquamarine;
+}
+
+/* Footer */
+.footer {
+    margin-top: 30px;
+}
+
+.footer .content {
+    background-color: rgb(240, 223, 189);
+    border-radius: 12px;
+}
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column {
+    padding: 12px 30px;
+}
+
+.row .column .desc {
+    margin-top: 30px;
+    width: 250px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.footer .column .list-icon {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.footer .column .list-icon .icon {
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.footer .column .list-icon .icon:hover {
+    background: #ccc;
+}
+
+.footer .column .title {
+    position: relative;
+    color: rgb(7, 7, 7);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer .column .title:hover {
+    color: #ea7676;
+}
+
+.footer .column .separate::after {
+    position: absolute;
+    content: "";
+    margin-top: 0px;
+    width: 80px;
+    height: 1px;
+    background-color: #9E9DA8;
+}
+
+.footer .column .list-info {
+    margin-top: 30px;
+}
+
+.footer .column .list-info li {
+    margin-top: 30px;
+}
+
+.footer .column .list-info li a:hover {
+    color: aqua;
+}
+
